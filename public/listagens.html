@@ -9,20 +9,39 @@
 </head>
 <body>
 
-  <div class="container mt-4">
-    <h1 class="text-center text-primary mb-4">Listagem de Taxistas e Usuários</h1>
-    
-    <h2 class="text-secondary mt-5">🚕 Taxistas Cadastrados</h2>
-    <ul class="list-group" id="taxistas-list">
-      <!-- Taxistas serão carregados aqui pelo JavaScript -->
-    </ul>
+  <nav class="navbar navbar-expand navbar-dark bg-dark mb-4">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-3" href="index.html">TaxLife</a>
+      
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" href="index.html">Início</a>
+        <a class="nav-link" href="cadastroUsuario.html">Usuários</a>
+        <a class="nav-link" href="cadastroTaxista.html">Taxistas</a>
+        <a class="nav-link active" href="listagens.html">Listagens</a>
+      </div>
+    </div>
+  </nav>
 
-    <h2 class="text-secondary mt-5">👤 Usuários Cadastrados</h2>
-    <ul class="list-group" id="usuarios-list">
-      <!-- Usuários serão carregados aqui pelo JavaScript -->
-    </ul>
+  <div class="container mt-4">
+    <h2 class="text-center mb-4">📋 Listagem Geral</h2>
+    
+    <div class="row">
+      <div class="col-md-6">
+        <h4 class="text-success">Usuários Cadastrados</h4>
+        <ul id="usuarios-list" class="list-group">
+          <li class="list-group-item">Carregando...</li>
+        </ul>
+      </div>
+
+      <div class="col-md-6 mt-4 mt-md-0">
+        <h4 class="text-warning">Taxistas Cadastrados</h4>
+        <ul id="taxistas-list" class="list-group">
+          <li class="list-group-item">Carregando...</li>
+        </ul>
+      </div>
+    </div>
   </div>
 
-<script src="./JS/script.js"></script>
+  <script src="./JS/script.js"></script>
 </body>
 </html>
