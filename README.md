@@ -34,8 +34,8 @@ O objetivo é facilitar o processo de registro, gerenciamento e conexão entre a
 
 - **Front-end:**  
   - React.js.  
-  - TailwindCSS ou Bootstrap.  
+  - Bootstrap.  
 
 - **Back-end:**  
-  - Node.js com Express (ou outro framework).  
-  - Banco de dados (MySQL, PostgreSQL ou MongoDB).  
+  - Node.js com Express.  
+  - Banco de dados MySQL.  
